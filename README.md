@@ -6,7 +6,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MJPeppersdev" />
 
-<img src="https://devrel-tools-prod-scn-badges-srv.cfapps.eu10.hana.ondemand.com/devtoberfestContest/mjpeppersdev" />
+
 
 <!--
 **MJPeppersdev/mjpeppersdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
