@@ -1,4 +1,8 @@
-### Hi there 👋
+### [![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=Hi+there+%F0%9F%91%8B+my+name+is+Michael)](https://git.io/typing-svg) :squirrel:
+
+## Full-stack Developer & Multicopter Pilot/Mechanic :money_with_wings: from :sun_with_face: Southern California :palm_tree:
+
+[![GitHub Streak](https://mjpeppers-readme-streaking.herokuapp.com?user=MJPeppersdev&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 <!--
 **MJPeppersdev/mjpeppersdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
