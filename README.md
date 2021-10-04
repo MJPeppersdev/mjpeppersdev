@@ -4,7 +4,7 @@
 
 [![GitHub Streak](https://mjpeppers-readme-streaking.herokuapp.com?user=MJPeppersdev&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MJPeppersdev" />
+![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/github-metrics.svg)
 
 
 
