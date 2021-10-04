@@ -41,7 +41,7 @@ jobs:
         uses: mjpeppersdev/metrics@main
         with:
           filename: metrics.plugin.activity.svg
-          token: ${{ secrects.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_activity: yes
           plugin_activity_limit: 7
