@@ -16,12 +16,7 @@ on:
 jobs:
   github-metrics-personal:
     runs-on: ubuntu-latest
-    if: "github.repository == 'mjpeppersdev/mjpeppersdev'"
     steps:
-      - uses: MJPeppersdev/metrics@main
-        with:
-          # Github token
-          token: ${{ secrets.METRICS_TOKEN }}
           
       - name: 🦑 Personal metrics (left)
         if: ${{ success() || failure() }}
