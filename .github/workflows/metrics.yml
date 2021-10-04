@@ -14,13 +14,13 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  github-metrics-personal:
+  github-metrics:
     runs-on: ubuntu-latest
     steps:
           
       - name: 🦑 Personal metrics (left)
         if: ${{ success() || failure() }}
-        uses: mjpeppersdev/metrics@main
+        uses: MJPeppersdev/metrics@main
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -43,7 +43,7 @@ jobs:
           
       - name: 🦑 Personal metrics (right)
         if: ${{ success() || failure() }}
-        uses: mjpeppersdev/metrics@main
+        uses: MJPeppersdev/metrics@main
         with:
           filename: metrics.plugin.skyline.svg
           token: NOT_NEEDED
@@ -57,7 +57,7 @@ jobs:
           
       - name: 🦑 Personal metrics (bottom)
         if: ${{ success() || failure() }}
-        uses: mjpeppersdev/metrics@main
+        uses: MJPeppersdev/metrics@main
         with:
           filename: metrics.plugin.habits.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -67,5 +67,5 @@ jobs:
           plugin_habits_charts: yes
           plugin_errors_fatal: ${{ github.repository == 'mjpeppersdev/mjpeppersdev' }}
           config_timezone: America/Los_Angeles
-          output_action: pull-request
-          delay: 120
+          output_action: pull-request-squash
+          
