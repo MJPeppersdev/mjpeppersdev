@@ -28,7 +28,7 @@ jobs:
         uses: mjpeppersdev/metrics@main
         with:
           filename: metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header
           user: github
           plugin_introduction: yes
