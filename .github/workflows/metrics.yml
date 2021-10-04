@@ -44,6 +44,7 @@ jobs:
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
           config_order: base.header, introduction, languages, activity
           output_action: pull-request
+          delay: 120
           
       - name: 🦑 Personal metrics (right)
         if: ${{ success() || failure() }}
@@ -57,6 +58,7 @@ jobs:
           plugin_skyline_quality: 1
           plugin_errors_fatal: ${{ github.repository == 'mjpeppersdev/mjpeppersdev' }}
           output_action: pull-request
+          delay: 120
           
       - name: 🦑 Personal metrics (bottom)
         if: ${{ success() || failure() }}
