@@ -3,9 +3,12 @@
 ### Full-stack Developer & Multicopter Pilot/Mechanic :money_with_wings: from :sun_with_face: Southern California :palm_tree:
 
 [![GitHub Streak](https://mjpeppers-readme-streaking.herokuapp.com?user=MJPeppersdev&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
+![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-introduction)
 ![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/github-metrics.svg)
-
+![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-activity.svg)
+![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-habits.svg)
+![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-languages-indepth.svg)
+![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-skyline.svg)
 
 
 <!--
