@@ -17,7 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
-          filename: metrics.classic.svg
+          filename: metrics-classic.svg
           user: MJPeppersdev
           template: classic
           base: header, activity, community, repositories, metadata
