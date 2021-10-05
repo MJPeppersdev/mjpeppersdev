@@ -4,7 +4,7 @@
 
 [![GitHub Streak](https://mjpeppers-readme-streaking.herokuapp.com?user=MJPeppersdev&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
-![Metrics](https://github.com/MJPeppers/mjpeppersdev/blob/main/github-metrics.svg)
+![Metrics](https://metrics.lecoq.io/MJPeppersdev?template=classic&achievements=1&activity=1&languages=1&isocalendar=1&introduction=1&sponsors=1&isocalendar.duration=half-year&languages.limit=8&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&introduction.title=true&activity.limit=5&activity.load=300&activity.days=14&activity.filter=all&activity.visibility=all&activity.timestamps=false&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&sponsors.sections=goal%2C%20about&config.timezone=America%2FLos_Angeles)
 
 
 
