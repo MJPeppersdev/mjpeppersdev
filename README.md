@@ -4,15 +4,9 @@
 
 [![GitHub Streak](https://mjpeppers-readme-streaking.herokuapp.com?user=MJPeppersdev&theme=radical&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
-<img src="https://github.com/MJPeppersdev/MJPeppersdev/blob/main/github-metrics.svg" alt="Introduction" width="100%">
+![Metrics](https://github.com/MJPeppers/mjpeppersdev/blob/main/github-metrics.svg)
 
-<img src="https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-activity.svg" alt="Activity" width="100%">
 
-<img src="https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-habits.svg" alt="Habits" width="100%">
-
-<img src="https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-languages-indepth.svg" alt="Languages" width="100%">
-
-<img src="https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metric-plugin-skyline.svg" alt="Skyline" width="100%">
 
 
 <!--
