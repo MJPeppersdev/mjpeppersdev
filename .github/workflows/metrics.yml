@@ -54,7 +54,7 @@ jobs:
           plugin_skyline_year: 2021
           plugin_skyline_frames: 8
           plugin_skyline_quality: 1
-          output_action: pull-request
+          output_action: pull-request-merge
 
 
           
