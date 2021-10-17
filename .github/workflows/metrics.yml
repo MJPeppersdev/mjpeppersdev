@@ -53,7 +53,7 @@ jobs:
           plugin_skyline: yes
           plugin_skyline_year: 2021
           plugin_skyline_frames: 26
-          plugin_skyline_quality: 3
+          plugin_skyline_quality: 1
           output_action: pull-request
 
 
