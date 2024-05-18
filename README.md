@@ -4,7 +4,7 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=MJPeppersdev)](https://git.io/streak-stats)
 
-![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/metrics-classic.svg)
+![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/github-metrics.svg)
 
 
 
