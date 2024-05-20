@@ -50,7 +50,7 @@ jobs:
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_code: yes
-          plugin_code_languages: javascript, typescript, swift, java, rust
+          plugin_code_languages: javascript, typescript, swift, java, rust, python, scala
           plugin_code_load: 400
           output_action: pull-request
 
