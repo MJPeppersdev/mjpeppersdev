@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          use_prebuilt_image: yes
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
 
@@ -22,6 +23,8 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Los_Angeles
+          optimize: svg
+          experimental_features: --optimize-svg
           plugin_lines: yes
           plugins_errors_fatal: ${{ github.repository == 'MJPeppersdev/mjpeppersdev' }}
           plugin_achievements: yes
@@ -39,11 +42,9 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 0
           plugin_languages: yes
-          plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
-          plugin_languages_indepth: yes
+          commits_authoring: mcgdevfunk824@protonmail.com, MJPeppersdev, mjpeppersdev@protonmail.com
           plugin_languages_details: lines, bytes-size
-          plugin_languages_limit: 4
-          plugin_languages_analysis_timeout: 25
+          plugin_languages_limit: 8
           plugin_leetcode: yes
           plugin_leetcode_sections: solved, skills, recent
           plugin_habits: yes
@@ -52,6 +53,9 @@ jobs:
           plugin_code: yes
           plugin_code_languages: javascript, typescript, swift, java, rust, python, scala
           plugin_code_load: 400
+          plugin_gists: yes
+          output_condition: data-changed
+          clean_workflows: all
           output_action: pull-request
 
 
