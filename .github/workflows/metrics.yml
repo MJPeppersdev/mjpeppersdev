@@ -62,7 +62,6 @@ jobs:
           plugin_code_languages: javascript, typescript, swift, java, rust, python, scala
           plugin_gists: yes
           output_condition: data-changed
-          clean_workflows: all
           output_action: pull-request
 
 
