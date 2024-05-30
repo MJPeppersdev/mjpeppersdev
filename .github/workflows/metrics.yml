@@ -52,7 +52,7 @@ jobs:
           plugin_leetcode_sections: solved, skills, recent
           plugin_habits: yes
           plugin_habits_from: 400
-          plugin_habits_days: 14
+          plugin_habits_days: 21
           plugin_habits_languages_limit: 8
           plugin_habits_charts: no
           plugin_habits_facts: yes
