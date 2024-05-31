@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     if: "github.repository == 'MJPeppersdev/mjpeppersdev'"
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@main
         with:
           use_prebuilt_image: yes
           # Your GitHub token
