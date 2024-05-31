@@ -44,7 +44,6 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 0
           plugin_languages: yes
-          commits_authoring: mcgdevfunk824@protonmail.com, MJPeppersdev, mjpeppersdev@protonmail.com
           plugin_languages_details: bytes-size, percentage
           plugin_languages_colors: rainbow
           plugin_languages_limit: 8
@@ -52,7 +51,7 @@ jobs:
           plugin_leetcode_sections: solved, skills, recent
           plugin_habits: yes
           plugin_habits_from: 400
-          plugin_habits_days: 21
+          plugin_habits_days: 14
           plugin_habits_languages_limit: 8
           plugin_habits_charts: no
           plugin_habits_facts: yes
@@ -61,7 +60,6 @@ jobs:
           plugin_code_lines: 30
           plugin_code_languages: javascript, typescript, swift, java, rust, python, scala
           plugin_gists: yes
-          output_condition: data-changed
           output_action: pull-request
 
 
