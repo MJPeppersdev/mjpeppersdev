@@ -1,0 +1,7 @@
+              - name: Create timeline animation
+                uses: Zxilly/animated-timeline@v1.0.1
+                with:
+                name: 'MJPeppersdev' 
+                token: ${{ secrets.METRICS_TOKEN }}
+                output: 'assets/animation.gif'
+                type: 'gif'
