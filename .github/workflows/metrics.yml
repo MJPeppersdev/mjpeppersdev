@@ -58,7 +58,7 @@ jobs:
           plugin_code: yes
           plugin_code_days: 30
           plugin_code_lines: 30
-          plugin_code_languages: javascript, typescript, swift, java, rust, python, scala
+          plugin_code_languages: javascript, typescript, swift, java, rust, python, scala, sql
           plugin_gists: yes
           output_action: pull-request
 
