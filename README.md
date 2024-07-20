@@ -2,7 +2,7 @@
 
 ### Full-stack Developer & Multicopter Pilot/Mechanic :money_with_wings: from :sun_with_face: Southern California :palm_tree:
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=MJPeppersdev&theme=shades-of-purple)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=MJPeppersdev&theme=ambient-gradient)](https://git.io/streak-stats)
 
 ![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/github-metrics.svg)
 
