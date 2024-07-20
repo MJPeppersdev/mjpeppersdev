@@ -6,6 +6,7 @@
 
 ![Metrics](https://github.com/MJPeppersdev/MJPeppersdev/blob/main/github-metrics.svg)
 
+![](./profile-3d-contrib/profile-night-rainbow.svg)
 
 
 
