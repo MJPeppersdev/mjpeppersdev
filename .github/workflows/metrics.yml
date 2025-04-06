@@ -12,7 +12,9 @@ jobs:
         run: |
           sudo apt-get update
           # Ensure no conflicting packages are installed
-          sudo apt-get remove -y containerd
+          sudo apt-get remove -y containerd containerd.io
+          # Clean up any held packages
+          sudo dpkg --configure -a
           sudo apt-get install -y docker.io jq
       - uses: lowlighter/metrics@main
         with:
