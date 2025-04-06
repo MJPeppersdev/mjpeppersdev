@@ -1,9 +1,6 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
-  # Schedule updates (each hour)
   schedule: [{cron: "0 */12 * * *"}]
-  # Lines below let you run workflow manually and on each commit
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
@@ -11,26 +8,16 @@ jobs:
     runs-on: ubuntu-latest
     if: "github.repository == 'MJPeppersdev/mjpeppersdev'"
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-
-    - name: Set up Docker
-      run: |
-        sudo apt-get update
-        sudo apt-get remove -y containerd.io containerd
-        sudo apt-get install -y containerd.io
-
-    - name: Run metrics script
-      run: |
-        # Your existing script or command to run metrics
-        ./run_metrics.sh
-    - uses: lowlighter/metrics@main
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          # Ensure no conflicting packages are installed
+          sudo apt-get remove -y containerd
+          sudo apt-get install -y docker.io jq
+      - uses: lowlighter/metrics@main
         with:
           use_prebuilt_image: yes
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Options
           filename: github-metrics.svg
           user: MJPeppersdev
           template: classic
