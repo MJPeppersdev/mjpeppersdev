@@ -11,11 +11,20 @@ jobs:
     runs-on: ubuntu-latest
     if: "github.repository == 'MJPeppersdev/mjpeppersdev'"
     steps:
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io jq
-      - uses: lowlighter/metrics@main
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Docker
+      run: |
+        sudo apt-get update
+        sudo apt-get remove -y containerd.io containerd
+        sudo apt-get install -y containerd.io
+
+    - name: Run metrics script
+      run: |
+        # Your existing script or command to run metrics
+        ./run_metrics.sh
+    - uses: lowlighter/metrics@main
         with:
           use_prebuilt_image: yes
           # Your GitHub token
